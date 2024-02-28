@@ -63,6 +63,7 @@ export const Home = () => {
                                     {book.publishyear}
                                 </td>
                                 <td className='border border-slate-700 rounded-md text-center'>
+                                    
                                     <div className='flex justify-center gap-x-4'>
                                         <Link to={`/books/details/${book._id}`}>
                                             <BsInfoCircle className='text-2xl text-green-800'/>
