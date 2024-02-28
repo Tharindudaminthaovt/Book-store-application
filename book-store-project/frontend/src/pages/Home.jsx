@@ -45,8 +45,6 @@ export const Home = () => {
                         <th className='border border-slate-600 rounded-md max-md:hidden'>Publish Year</th>
                         <th className='border border-slate-600 rounded-md'>Operations</th>
 
-                    
-                    
                     </tr>
                     </thead>
                     <tbody>
