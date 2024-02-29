@@ -10,7 +10,7 @@ const bookSchema = mongoose.Schema(
             type:String,
             required:true,
         },
-        publishyear:{
+        publishYear:{
             type:Number,
             required:true,
         },
@@ -20,4 +20,4 @@ const bookSchema = mongoose.Schema(
     }
 );
 
-export const Book = mongoose.model('cat',bookSchema);
+export const Book = mongoose.model('Book',bookSchema);
