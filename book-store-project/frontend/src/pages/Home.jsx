@@ -60,7 +60,7 @@ export const Home = () => {
                                     {book.author}
                                 </td>
                                 <td className='border border-slate-700 rounded-md text-center max-md:hidden'>
-                                    {book.publishyear}
+                                    {book.publishYear}
                                 </td>
                                 <td className='border border-slate-700 rounded-md text-center'>
                                     
